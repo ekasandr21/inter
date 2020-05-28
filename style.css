@@ -1,0 +1,402 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.padding-site {
+    padding-left: 98px;
+    padding-right: 98px;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.slider {
+    height: 800px;
+    background-image: url(img/slider-img.jpg);
+    position: relative;
+}
+
+.header {
+    padding-top: 63px;
+}
+
+.menu {
+    float: right;
+}
+
+.menu-list {
+    list-style-type: none;
+}
+
+.menu-link {
+    color: #8c8c8c;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 13px;
+}
+
+.menu-link:hover {
+    color: #212121;
+}
+
+.menu-link-active {
+    color: #212121;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    border-bottom: 3px solid #212121;
+}
+
+.slider-text {
+    margin-top: 283px;
+}
+
+.slider-trending {
+    color: #43a047;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.slider-h2 {
+    color: #212121;
+    font-size: 62px;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+.slider-content {
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    width: 458px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    line-height: 24px;
+}
+
+.button {
+    color: #212121;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+    border-radius: 23px;
+    background-color: #ffffff;
+    width: 212px;
+    line-height: 45px;
+    height: 45px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    letter-spacing: 3, 6px;
+}
+
+.slider-p {
+    position: absolute;
+    width: 1170px;
+    bottom: 19px;
+    text-align: center;
+}
+
+.circle {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    background-color: #c7c7c7;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.circle-active {
+    width: 40px;
+    height: 40px;
+    background-color: #212121;
+    margin-bottom: 0;
+}
+
+.circle:hover {
+    background-color: #212121;
+}
+
+.padding-between {
+    margin-top: 120px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.blocka > .block_1,
+.block_2,
+.block_3,
+.block_4 {
+    width: 268px;
+    height: 268px;
+    border: 1px solid #9c9c9c;
+    float: left;
+    margin-left: 20px;
+    margin-top:
+}
+
+.txt-blocka {
+    padding-top: 120px;
+    margin-bottom: 60px;
+}
+
+.featured {
+    margin-left: 123px;
+    color: #212121;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.new {
+    color: #6c6c6c;
+    font-size: 36px;
+    font-weight: 700
+}
+
+.explore-all {
+    float: right;
+    margin-right: 110px;
+    color: #212121;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3.1px;
+    padding-top: 12px;
+}
+
+.bloka-two div {
+    width: 681px;
+    height: 681px;
+    float: left
+}
+
+.chair-one {
+    background-image: url(img/promo-img1.jpg);
+
+}
+
+.exclusive {
+    padding: 200px 0 10px 50px;
+    color: #1e88e5;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    /* Text style for "exclusive" */
+    color: #1e88e5;
+    letter-spacing: 1.8px;
+}
+
+.exclusive-h {
+    padding: 0 0 10px 50px;
+}
+
+.exclusive-txt {
+    padding: 0 0 30px 50px;
+}
+
+.chair-one > a {
+    margin-left: 50px;
+}
+
+.chair-two {
+    background-image: url(img/promo-img.jpg);
+}
+
+.chair-two > a {
+    margin-left: 50px;
+}
+
+.block_1 {
+    background-image: url(img/);
+
+}
+
+.arrow {
+    width: 60px;
+    height: 60px;
+    margin-left: 40%;
+    margin-top: 20%;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+
+}
+
+.arrow > a > img {
+    text-align: center;
+    margin-top: 33%;
+    margin-left: 36%;
+    width: 15px;
+}
+
+.pzd {
+    padding: 10px 0 10px 50px;
+}
+
+.pzdp {
+    display: block;
+    text-align: center
+}
+
+.block_2 {
+    background-image: url(img/product-2.jpg)
+}
+
+.block_3 {
+    background-image: url(img/product-3.jpg)
+}
+
+.block_4 {
+    background-image: url(img/product-4.jpg)
+}
+
+.txt-txt {
+    margin-top: 120px;
+    display: inline-block;
+    font-size: 18px;
+    border: 1px solid #000;
+    width: 100%;
+}
+
+.trending-products div {
+
+    width: 368px;
+    height: 368px;
+    border: 1px solid black;
+    float: left;
+    margin-left: 20px
+}
+
+.products_1,
+.products_2,
+.products_3 {
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.products_1 {
+    background-image: url(img/product-11.jpg)
+}
+
+.products_2 {
+    background-image: url(img/product-21.jpg)
+}
+
+.products_3 {
+    background-image: url(img/product-31.jpg)
+}
+
+.products_4 {
+    background-image: url(img/product-41.jpg)
+}
+
+.products_5 {
+    background-image: url(img/product-5.jpg)
+}
+
+.products_6 {
+    background-image: url(img/product-6.jpg)
+}
+
+.oversize-slider {
+    margin-top: 120px;
+    float: left;
+    width: 1366px;
+    height: 800px;
+    background-image: url(img/slider.jpg);
+    border: 1px splid black;
+}
+
+. .hard {
+    margin-left: 90px;
+}
+
+.oversize-slider > .exclusive {
+    color: #e53935;
+}
+
+.exclusive-hot {
+    padding-left: 45px;
+    color: #212121;
+    font-size: 62px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.oversize-slider > a {
+    margin-left: 50px;
+}
+
+.hard_2,
+.hard_3,
+.hard_4,
+.hard_5 {
+    width: 268px;
+    height: 268px;
+    float: left;
+    margin-left: 20px;
+}
+
+.hard_1 {
+    width: 570px;
+    height: 570px;
+    float: left;
+    margin-top: 120px;
+    background-image: url(img/product-1-lg.jpg);
+}
+.hard_1>a{
+    margin-left: 50px;
+}
+.hard_2 {
+    margin-top: 120px;
+    background-image: url(img/product-2-sm.jpg)
+}
+
+.hard_3 {
+    margin-top: 120px;
+    background-image: url(img/product-3-sm.jpg)
+}
+
+.hard_4,
+.hard_5 {
+    margin-top: 30px
+}
+
+.hard_4 {
+    background-image: url(img/product-4-sm.jpg);
+}
+
+.hard_5 {
+    background-image: url(img/product-5-sm.jpg)
+}
+
+.mobile {
+    margin-top: 120px;
+    float: left;
+    width: 1366px;
+    height: 510px;
+}
+
+.mobile-content {
+    width: 1366px;
+    height: 510px;
+    background-image: url(img/back-img.jpg);
+
+}
